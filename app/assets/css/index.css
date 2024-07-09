@@ -1,24 +1,32 @@
 #img-swiper {
     height: 600px;
-    width: 100VW;
+    width: 100vw;
 }
 
-.card-list .card-group .card img{
-    width: 300px;
-    height: 300px;
+.search-container {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
 }
 
-.search input#search-product {
-    width: 60%;
-    height: 50px;
-    border-radius: 50px;
-    border: 1px solid;
-    border-color: #D9D9D9;
-    padding: 20px;
-    background-color: #D9D9D9;
+#input-search {
+    width: 100%;
+    padding-right: 45px; /* Espacio para o botão */
 }
 
-.search input#search-product:focus-visible {
+#btn-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
     border: none;
-    border-color: red;
+    background: none;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-search .fas {
+    color: #6c757d;
 }
